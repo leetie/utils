@@ -4,7 +4,7 @@ set up info for postgresql for Rails development environment on my machine.
 	naming convention in rails is to look for the DB with the default user being the current system user, with the DB name of "projectname_development"
 
 ```bash
-sudo -u postgres postgresql
+sudo -u postgres psql
 ```
 \l to show DBs, \du to show Roles
 
